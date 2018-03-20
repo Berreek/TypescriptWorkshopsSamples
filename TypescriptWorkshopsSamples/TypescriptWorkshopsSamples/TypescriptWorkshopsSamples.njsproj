@@ -40,18 +40,22 @@
     <Content Include="README.md" />
     <Content Include="tslint.json" />
     <TypeScriptCompile Include="src\modules\app.module.ts" />
-    <TypeScriptCompile Include="src\modules\testApplicationModule\controllers\test.controller.ts" />
-    <TypeScriptCompile Include="src\modules\testApplicationModule\models\testDto.ts" />
-    <TypeScriptCompile Include="src\modules\testApplicationModule\testApplicationModule.ts" />
     <TypeScriptCompile Include="src\server.ts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="src\" />
     <Folder Include="src\modules\" />
-    <Folder Include="src\modules\testApplicationModule\" />
-    <Folder Include="src\modules\testApplicationModule\controllers\" />
-    <Folder Include="src\modules\testApplicationModule\models\" />
-    <Folder Include="src\modules\testApplicationModule\services\" />
+    <Folder Include="src\samples\" />
+    <Folder Include="src\samples\1 - HowDoesItEvenWork\" />
+    <Folder Include="src\samples\2 - Classes\" />
+    <Folder Include="src\samples\3 - Interfaces\" />
+    <Folder Include="src\samples\4 - Enums\" />
+    <Folder Include="src\samples\5 - Funcs\" />
+    <Folder Include="src\samples\6 - Generics\" />
+    <Folder Include="src\samples\7 - NullableTypes\" />
+    <Folder Include="src\samples\8 - Symbols\" />
+    <Folder Include="src\samples\9 - Modules\" />
+    <Folder Include="src\samples\10 - Decorators\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
