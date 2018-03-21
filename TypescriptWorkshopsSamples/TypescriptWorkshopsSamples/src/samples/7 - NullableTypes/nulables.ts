@@ -1,4 +1,4 @@
-﻿export class NullableClass {
+﻿class NullablesClass {
     message?: string;
 
     constructor(message?: string) {
@@ -7,9 +7,9 @@
 }
 
 class ClassWithNullableProperty {
-    nullableObject?: NullableClass;
+    nullableObject?: NullablesClass;
 
-    constructor(nullableObject?: NullableClass) {
+    constructor(nullableObject?: NullablesClass) {
          this.nullableObject = nullableObject;
     }
 }
