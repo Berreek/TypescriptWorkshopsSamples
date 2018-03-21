@@ -41,9 +41,6 @@
     <Content Include="tslint.json" />
     <TypeScriptCompile Include="src\modules\app.module.ts" />
     <TypeScriptCompile Include="src\samples\1 - HowDoesItEvenWork\ShitJavascriptCodeInTypescript.ts" />
-    <TypeScriptCompile Include="src\samples\10 - Decorators\decorators.ts">
-      <SubType>Code</SubType>
-    </TypeScriptCompile>
     <TypeScriptCompile Include="src\samples\2 - Classes\abstractClasses.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
@@ -107,8 +104,7 @@
     <Folder Include="src\samples\7 - NullableTypes\" />
     <Folder Include="src\samples\8 - Symbols\" />
     <Folder Include="src\samples\9 - Modules\" />
-    <Folder Include="src\samples\10 - Decorators\" />
-    <Folder Include="src\samples\11 - Summary Examples\" />
+    <Folder Include="src\samples\99 Summary Examples\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
